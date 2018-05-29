@@ -1,0 +1,11 @@
+<!--pages/funning/funning.wxml-->
+<view class="funning-container">
+  
+  <view wx:for="{{childrenFunningInfos}}" class="funning-item">
+  <image backgound-size="cover" class="childinfo-avatar" src="{{item.src}}" bindtap="handleClick"
+  data-title="{{item.title}}" data-message="{{item.message}}">
+  </image>  
+  <text class="childName">{{item.name}}</text>
+  </view>  
+</view>
+<zan-dialog id="zan-dialog-test" ></zan-dialog>

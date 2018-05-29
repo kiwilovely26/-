@@ -1,0 +1,12 @@
+<!--pages/photos/photos.wxml-->
+<scroll-view class="photos" scroll-y="true">
+  <loading hidden="{{hidden}}" bindchange="loadingChange">
+    加载中...
+  </loading>
+  <view class="photo-list">    
+      <view class="thumbnail" wx:for="{{photos}}">
+        <image class="photo {{arr[index]?'loaded':''}}" src="{{arr[index] ? item:'../../assets/img/children-home.png'}}" data-url="{{item}}" bindtap='lookPhoto' data-list="{{photos}}"></image>             
+      </view>    
+  </view>
+</scroll-view>
+<zan-toast id="zan-toast-test"></zan-toast>

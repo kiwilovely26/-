@@ -1,0 +1,11 @@
+/* pages/waterfall/waterfall.wxss */
+.img-container{
+  width:100%;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAMAAAC6sdbXAAAABlBMVEXy8vL8/PxTekb+AAAAHElEQVR42i2IwREAAAzBYv+lG6dEHiAGq59u9wEBSgAVc62LeAAAAABJRU5ErkJggg==) 0 0 repeat;
+}
+.img_item {
+  width: 48%;
+  margin: 1%;
+  display: inline-block;
+  vertical-align: top;
+}

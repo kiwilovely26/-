@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="ballbox">
+    <view class="balloon balloon1">
+      <image src="../../assets/img/loveball3.png"></image>
+    </view>
+    <view class="balloon balloon2">
+      <image src="../../assets/img/loveball.png"></image>
+    </view>
+    <view class="balloon balloon3">
+      <image src="../../assets/img/loveball6.png"></image>
+    </view>
+    <view class="balloon balloon4">
+      <image src="../../assets/img/loveball4.png"></image>
+    </view>
+  </view>
+  <image src="../../assets/img/children-home.png" class="bg-img"></image>
+  <view class="userinfo"> 
+      <text class="theme-bless">祝辛巴班的小朋友们六 · 一儿童节快乐</text>
+      <view>
+        <text class='char'>H</text>
+        <text class='char'>a</text>
+        <text class='char'>p</text>
+        <text class='char'>p</text>
+        <text class='char' style='margin-right:3px'>y</text>
+        <text class='char'>C</text>
+        <text class='char'>h</text>
+        <text class='char'>i</text>
+        <text class='char'>l</text>
+        <text class='char'>d</text>
+        <text class='char'>r</text>
+        <text class='char'>e</text>
+        <text class='char'>n '</text>
+        <text class='char' style='margin-right:3px'>s</text>
+        <text class='char'>D</text>
+        <text class='char'>a</text>
+        <text class='char'>y</text>
+      </view>  
+  </view>  
+</view>

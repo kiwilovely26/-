@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "zan-dialog": "/zanui/dialog/index"
+  }
+}

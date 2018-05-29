@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/funning/funning",
+    "pages/waterfall/waterfall",
+    "pages/photos/photos"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "辛巴班 · 宝贝们",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#656565",
+    "selectedColor": "#090",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/img/home-l.png",
+        "selectedIconPath": "assets/img/home.png"
+      },
+      {
+        "pagePath": "pages/funning/funning",
+        "text": "宝贝趣事",
+        "iconPath": "assets/img/baby-l.png",
+        "selectedIconPath": "assets/img/baby.png"
+      },
+      {
+        "pagePath": "pages/waterfall/waterfall",
+        "text": "照片墙",
+        "iconPath": "assets/img/photos-l.png",
+        "selectedIconPath": "assets/img/photos.png"
+      }
+    ]
+  }
+}
