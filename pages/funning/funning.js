@@ -6,6 +6,8 @@ Page({
    * 页面的初始数据
    */
   data: {
+    slideInLeftShow:false,
+    slideInRightShow:false,
     childrenFunningInfos:[
       {
         name: "杨夏朵",
@@ -152,5 +154,17 @@ Page({
       }).then((res) => {
       })
     }        
+  },
+  onShow:function(){
+    this.setData({
+      slideInLeftShow:true,
+      slideInRightShow:true
+    })
+  },
+  onHide:function(){
+    this.setData({
+      slideInLeftShow: false,
+      slideInRightShow: false
+    })
   } 
 })

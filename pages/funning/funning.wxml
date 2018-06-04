@@ -2,9 +2,12 @@
 <view class="funning-container">
   
   <view wx:for="{{childrenFunningInfos}}" class="funning-item">
-  <image backgound-size="cover" class="childinfo-avatar" src="{{item.src}}" bindtap="handleClick"
+  <image wx:if="{{index%4<2}}" class="childinfo-avatar ripple {{slideInLeftShow?'slideInLeft':''}}" backgound-size="cover"  src="{{item.src}}" bindtap="handleClick"
   data-title="{{item.title}}" data-message="{{item.message}}">
-  </image>  
+  </image>
+  <image wx:else class="childinfo-avatar ripple {{slideInRightShow?'slideInRight':''}}" backgound-size="cover"  src="{{item.src}}" bindtap="handleClick"
+  data-title="{{item.title}}" data-message="{{item.message}}">
+  </image>
   <text class="childName">{{item.name}}</text>
   </view>  
 </view>
