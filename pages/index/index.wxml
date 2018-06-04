@@ -14,10 +14,10 @@
       <image src="../../assets/img/loveball4.png"></image>
     </view>
   </view>
-  <image src="../../assets/img/children-home.png" class="bg-img"></image>
+  <image src="../../assets/img/children-home.png" class="bg-img ripple {{swingShow ? 'pulse':''}} "></image>
   <view class="userinfo"> 
-      <text class="theme-bless">祝辛巴班的小朋友们六 · 一儿童节快乐</text>
-      <view>
+      <text class="theme-bless ripple {{zoomInShow ? 'zoomIn':''}}">祝辛巴班的小朋友们六 · 一儿童节快乐</text>
+      <view class="ripple {{slideInDownShow ? 'slideInDown':''}}">
         <text class='char'>H</text>
         <text class='char'>a</text>
         <text class='char'>p</text>
